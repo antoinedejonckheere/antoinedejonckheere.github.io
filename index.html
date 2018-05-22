@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+      body {
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+        padding: 12px;
+        color: rgba(0,0,0, 0.5);
+        background-color: rgb(211,211,211, 0.4);
+      }
+      .positioned {
+        margin-top: 300px;
+        margin-bottom: 300px;
+        width: 50%;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .portrait {
+        height: 120px;
+        border-radius: 120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 36px;
+        -webkit-transform:scale(1.2);
+        -moz-transform:scale(1.2);
+        -o-transform:scale(1.2);
+      }
+      .title {
+        text-align: center;
+      }
+      .header {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 24px;
+      }
+      .header-content {
+        margin-right: 12px;
+      }
+      .footer {
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: baseline;
+        position: fixed;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        left: 25%;
+        flex-wrap: wrap;
+      }
+      .description-text {
+        padding: 0 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="header-content">Antoine Dejonckheere</h2>
+      <h3>Software developer / Data scientist</h3>
+    </div>
+      <div class="positioned">
+        <img class="portrait" src="antoine.jpeg" alt="antoine" />
+        <div class="description-text">
+          <p>I'm a software developer/data scientist currently within <a href="https://www.jetpack.ai"> jetpack.AI</a></p>
+          <p>On the front-end, I work with React(JS/Native), NodeJS and the JS ecosystem overall.</p>
+          <p>On the back-end, I work with Scala / Spark. I can also code with python.</p>
+        </div>
+      </div>
+    <div class="footer">
+      <p><a href="https://github.com/antoinedejonckheere" target="_blank">Github</a></p>
+      <p><a href="https://twitter.com/amdj90" target="_blank">Twitter</a></p>
+      <p><a href="https://www.linkedin.com/in/antoine-dejonckheere-08533233/" target="_blank">Linkedin</a></p>
+    </div>
+  </body>
+</html>
